@@ -58,7 +58,7 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label class="text-dark" for="uname">Username</label>
-                                        <input name="usuario"  class="form-control" id="uname" type="text"
+                                        <input name="usuario" class="form-control" id="uname" type="text"
                                             placeholder="enter your username">
                                     </div>
                                 </div>
@@ -75,8 +75,6 @@
                                 <div class="col-lg-12 text-center mt-5">
                                     Don't have an account? <a href="#" class="text-danger">Sign Up</a>
                                 </div>
-                                
-                                <p class="text-danger" >${msj}</p>
                             </div>
                         </form>
                     </div>

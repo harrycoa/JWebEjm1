@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author rodol
  */
 @Controller
-public class MarcaController {
+public class MarcaController extends GeneralController{
     @Autowired
     private MarcaService ms;
     
@@ -31,8 +31,8 @@ public class MarcaController {
         return "index";
     }
     
-    @RequestMapping(value = "/listar_marcas", method = RequestMethod.GET)
-    public String listar_marcas(Model modelo){
+    @RequestMapping(value = "/view_marca", method = RequestMethod.GET)
+    public String view_marcas(Model modelo){
     
         List<Marca> lista_marcas = ms.getAll();
         
